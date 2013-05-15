@@ -285,3 +285,20 @@ footer {
     color:#444;
   }
 }
+
+.profile{
+  text-align: center;
+  background-image:url(/profile.jpeg);
+  width:100px;
+  height:100px;
+  background-size:cover;
+  border-bottom-left-radius:200px;
+  border-bottom-right-radius:200px;
+  border-top-left-radius:200px;
+  border-top-right-radius:200px;
+  box-shadow:rgba(0, 0, 0, 0.498039) 2px 2px 5px inset, rgba(0, 0, 0, 0.0470588) 0 0 2px 1px inset;
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1rem;
+}
