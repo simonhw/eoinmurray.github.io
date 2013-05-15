@@ -292,7 +292,7 @@ footer {
 
 .profile{
   text-align: center;
-  background-image:url(/https://en.gravatar.com/userimage/27617131/b3a3e7528a2e3f37f287cd68e6842dba.jpg?size=100);
+  background-image:url(https://en.gravatar.com/userimage/27617131/b3a3e7528a2e3f37f287cd68e6842dba.jpg?size=100);
   width:100px;
   height:100px;
   background-size:cover;
