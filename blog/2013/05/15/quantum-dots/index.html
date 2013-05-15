@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Quantum dots - My Octopress Blog</title>
+  <title>Fun with qubits. - My Octopress Blog</title>
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="dgjnsdfkjglsdfkgjhsdfg sdfgljhsdfgljkhsdfhgjlksdh
-">
+  <meta name="description" content="In my opinion, this is a bunch of stuff that anyone interested in quantum communication should know about how quibits behave. Superposition. If you &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -39,14 +38,11 @@
 
     <div class="wrapper">
           <header>
-            <h1>Minimal</h1>
-            <p>A Theme for GitHub Pages</p>
-            <p class="view"><a href="http://github.com/orderedlist/minimal">View the Project on GitHub <small>orderedlist/minimal</small></a></p>
-            <ul>
-              <li><a href="https://github.com/orderedlist/minimal/zipball/master">Download <strong>ZIP File</strong></a></li>
-              <li><a href="https://github.com/orderedlist/minimal/tarball/master">Download <strong>TAR Ball</strong></a></li>
-              <li><a href="http://github.com/orderedlist/minimal">Fork On <strong>GitHub</strong></a></li>
-            </ul>
+            <h1>Eoin Murray</h1>
+            <p>Quantum physics FTW!</p>
+            <p class="view"><a href="http://github.com/eoinmurray">GitHub</a></p>
+            <p class="view"><a href="linkedin.com/in/eoinm/">Linkedin</a></p>
+            
           </header>
           
           <section>
@@ -55,7 +51,7 @@
   
   <header>
     
-      <h1 class="entry-title">Quantum Dots</h1>
+      <h1 class="entry-title">Fun With Qubits.</h1>
     
     
       <p class="meta">
@@ -71,7 +67,7 @@
   
 
 
-<time datetime="2013-05-15T11:13:00-04:00" pubdate data-updated="true">May 15<span>th</span>, 2013</time>
+<time datetime="2013-05-15T00:00:00-04:00" pubdate data-updated="true">May 15<span>th</span>, 2013</time>
         
       </p>
     
@@ -80,9 +76,58 @@
 </br></br></br></br></br>
 
 
-<div class="entry-content"><h1>dgjnsdfkjglsdfkgjhsdfg</h1>
+<div class="entry-content"><p><strong>In my opinion, this is a bunch of stuff that anyone interested in quantum communication should know about how quibits behave.</strong></p>
 
-<p>sdfgljhsdfgljkhsdfhgjlksdh</p>
+<h2>Superposition.</h2>
+
+<p>If you look at a cylindrical block from the bottom, you see a circle. If you look at it from the side you see a square.</p>
+
+<p>Imagine a cylindrical block that is spinning around amazingly fast. When you look at it, it stops spinning and snaps into either a circle or a square.</p>
+
+<p>This is similar to how a qubit will behave. Whereas a normal bit has a value of either one or zero. A qubit is both. A qubit has some amount of one and some amount of zero, however when you measure it the qubit will <em>always</em> snap into a one or zero.
+These measurements are probabilistic and will not be the same each time.</p>
+
+<p>We represent a qubit as:</p>
+
+<p>$$\ \left|\psi\right\rangle = \alpha \left|0\right\rangle + \beta  \left|1\right\rangle$$.</p>
+
+<p>When you make a measurement on $ \left|\psi\right\rangle $ it will have result 1 with probability $\alpha<sup>2</sup>$ and results 0 with probability $\beta<sup>2</sup>$.</p>
+
+<h2>The quantum in qubit.</h2>
+
+<p>By definition a quantum is an indivisible unit. It has no smaller components.</p>
+
+<p>A photon is a quantum of light, it is the light particle. An important property of photons is that they cannot be split in two, this is very useful in quanutum communication.</p>
+
+<p>In normal radio communication you can absorb 50% of the wave and the other 50% will move on unaffected. In single photon communication this is <strong>not so</strong>.</p>
+
+<p>Say you have a series of bits encoded in a regulated beam of single photons, if part of this beam is destroyed or absorbed, pieces of information are lost. Thus you can tell when your message has been tampered checking if all of the qubits remain.</p>
+
+<p><em>(A radio wave is just millions of photons, but many-many of them will be encoded with the same information.)</em></p>
+
+<h2>The no cloning theorem.</h2>
+
+<p>The no cloning theorem states that a general qubit <em>cannot</em> be copied. This is integral to the BB84 quantum encryption protocol, and most other quantum protocols (I will talk about BB84 in a later blog post).
+Say Alice and Bob use qubits to communicate and Eve intercepts the stream. Eve cannot accurately resend the qubit that she intercepts. This will make more sense in the context of an algorithm in a later post.</p>
+
+<p><strong>Here is a short(weak) proof of the no-cloning theorem.</strong></p>
+
+<p>Suppose that $U$ is a unitary operator that can clone a qubit $\ \left|\psi\right\rangle$. Then $U$ can clone that states $\ \left|0\right\rangle$ and $\ \left|1\right\rangle$:</p>
+
+<p>$$U\ \left|0\right\rangle = \left|00\right\rangle,  \tag{1}$$</p>
+
+<p>$$U\ \left|1\right\rangle = \left|11\right\rangle,  \tag{2}$$</p>
+
+<p>Next if we apply $U$ to a qubit $\ \left|\psi\right\rangle = \alpha \left|0\right\rangle + \beta  \left|1\right\rangle$, knowing that $U$ is unitary so that
+$\ U\left|\psi\right\rangle = \alpha U\left|0\right\rangle + \beta U\left|1\right\rangle$. Plugging in eqns (1) and (2), we get</p>
+
+<p>$$\ U\left|\psi\right\rangle = \alpha \left|00\right\rangle + \beta \left|11\right\rangle. \tag{3}$$</p>
+
+<p>However if $U$ could clone $\ \left|\psi\right\rangle$, we would get</p>
+
+<p>$$\ U\left|\psi\right\rangle = \left|\psi\right\rangle\left|\psi\right\rangle = \alpha \alpha \left|00\right\rangle + \alpha \beta \left|01\right\rangle + \beta \alpha \left|10\right\rangle + \beta \beta \left|11\right\rangle. \tag{4}$$</p>
+
+<p>We can see that clearly eqn 4 is not the same as eqn 3. This shows that when a <em>linear operator</em> operates on a quantum state, cloning the state is impossible.</p>
 </div>
 
 

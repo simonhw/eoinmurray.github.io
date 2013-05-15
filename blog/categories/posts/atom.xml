@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://eoinmurray.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: posts | My Octopress Blog]]></title>
+  <link href="http://eoinmurray.github.io/blog/categories/posts/atom.xml" rel="self"/>
   <link href="http://eoinmurray.github.io/"/>
   <updated>2013-05-15T11:30:52-04:00</updated>
   <id>http://eoinmurray.github.io/</id>
@@ -12,19 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Rontgen.js]]></title>
-    <link href="http://eoinmurray.github.io/blog/2013/05/15/rontgen-dot-js/"/>
-    <updated>2013-05-15T11:30:00-04:00</updated>
-    <id>http://eoinmurray.github.io/blog/2013/05/15/rontgen-dot-js</id>
-    <content type="html"><![CDATA[<h3><a href="http://eoinmurray.github.io/rontgen">Check out the demo here</a>.</h3>
-
-<p>I have been working on an online LaTex and markdown for the last few days. In the same vain as <a href="http://socrates.io">Socrates.io</a> and <a href="http://dillinger.io">Dilliner.io</a> but with a bit more performance on the latex side. Mathjax is library for rendering LaTex on the web, but it is pretty slow. Socrates solves the performance issue by debouncing the math render by half a second, but this means that you have a lot of math flicking on and off. In my opinion this defeats the purpose of the real time math.</p>
-
-<p>Enter Rontgen.js, my solution to the above problem. Check it out <a href="http://eoinmurray.github.io/rontgen">here</a>.</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lorentz.js]]></title>

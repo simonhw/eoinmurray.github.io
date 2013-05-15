@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Simulations - My Octopress Blog</title>
+  <title>Lorentz.js - My Octopress Blog</title>
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="Lorentz.js is a node.js module that watches for client side file changes and reloads the browser. npm install lorentz Server side. var lorentz = &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -39,14 +38,11 @@
 
     <div class="wrapper">
           <header>
-            <h1>Minimal</h1>
-            <p>A Theme for GitHub Pages</p>
-            <p class="view"><a href="http://github.com/orderedlist/minimal">View the Project on GitHub <small>orderedlist/minimal</small></a></p>
-            <ul>
-              <li><a href="https://github.com/orderedlist/minimal/zipball/master">Download <strong>ZIP File</strong></a></li>
-              <li><a href="https://github.com/orderedlist/minimal/tarball/master">Download <strong>TAR Ball</strong></a></li>
-              <li><a href="http://github.com/orderedlist/minimal">Fork On <strong>GitHub</strong></a></li>
-            </ul>
+            <h1>Eoin Murray</h1>
+            <p>Quantum physics FTW!</p>
+            <p class="view"><a href="http://github.com/eoinmurray">GitHub</a></p>
+            <p class="view"><a href="linkedin.com/in/eoinm/">Linkedin</a></p>
+            
           </header>
           
           <section>
@@ -55,7 +51,7 @@
   
   <header>
     
-      <h1 class="entry-title">Simulations</h1>
+      <h1 class="entry-title">Lorentz.js</h1>
     
     
       <p class="meta">
@@ -71,7 +67,7 @@
   
 
 
-<time datetime="2013-05-15T11:22:00-04:00" pubdate data-updated="true">May 15<span>th</span>, 2013</time>
+<time datetime="2013-05-15T00:00:00-04:00" pubdate data-updated="true">May 15<span>th</span>, 2013</time>
         
       </p>
     
@@ -80,7 +76,35 @@
 </br></br></br></br></br>
 
 
-<div class="entry-content">
+<div class="entry-content"><p><strong><a href="http://github.com/eoinmurray/lorentz">Lorentz.js</a> is a node.js module that watches for client side file changes and reloads the browser.</strong></p>
+
+<pre><code>npm install lorentz
+</code></pre>
+
+<p>Server side.</p>
+
+<pre><code>var lorentz = require('lorentz')
+lorentz.liveReload(__dirname[, port]) // defaults to 8081
+</code></pre>
+
+<p>Client-side.</p>
+
+<pre><code>&lt;script src="http://localhost:8081/lorentz.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p>Specify the files you want to watch in a .lorentzwatch file.</p>
+
+<pre><code>public/
+app.js
+index.html
+</code></pre>
+
+<h3>Todo</h3>
+
+<ol>
+<li>Make such that a cli version of lorentz can be run from any dir, and will support any language set up then.</li>
+</ol>
+
 </div>
 
 
