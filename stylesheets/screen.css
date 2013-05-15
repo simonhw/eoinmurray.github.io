@@ -306,3 +306,7 @@ footer {
   margin-left: auto;
   margin-bottom: 1rem;
 }
+
+.meta{
+    float:right;
+}
