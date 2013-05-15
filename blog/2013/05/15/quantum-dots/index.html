@@ -40,27 +40,26 @@
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </head>
 
-<body   >
-
+<body>
     <div class="wrapper">
-          <header>
+        <header>
             <a href="/"><div class="profile"></div></a>
             <h1 class="text-center">Eoin Murray</h1>
             <p class="text-center">Quantum physics FTW!</p>
-            <!--<ul>-->
-            <!--<li><a href="http://github.com/eoinmurray">GitHub</a></li>-->
-            <!--<li><a href="linkedin.com/in/eoinm/">Linkedin</a></li>-->
-            <!--</ul>-->
-          </header>
-          
-          <section>
-          <div>
+            <ul>
+                <li><a href="http://github.com/eoinmurray">GitHub</a></li>
+                <li><a href="http://linkedin.com/in/eoinm/">Linkedin</a></li>
+            </ul>
+        </header>
+
+        <section>
+            <div>
 <article class="hentry" role="article">
   
     
         <h1 class="entry-title">Fun With Qubits.</h1>
         
-          <p class="meta">
+          <p>
             
 
 
@@ -91,7 +90,7 @@ These measurements are probabilistic and will not be the same each time.</p>
 
 <p>$$\ \left|\psi\right\rangle = \alpha \left|0\right\rangle + \beta  \left|1\right\rangle$$.</p>
 
-<p>When you make a measurement on $ \left|\psi\right\rangle $ it will have result 1 with probability $\alpha<sup>2</sup>$ and results 0 with probability $\beta<sup>2</sup>$.</p>
+<p>When you make a measurement on $ \left|\psi\right\rangle $ it will have result 1 with probability $\alpha^2$ and results 0 with probability $\beta^2$.</p>
 
 <h2>The quantum in qubit.</h2>
 
@@ -125,7 +124,7 @@ $\ U\left|\psi\right\rangle = \alpha U\left|0\right\rangle + \beta U\left|1\righ
 
 <p>However if $U$ could clone $\ \left|\psi\right\rangle$, we would get</p>
 
-<p>$$\ U\left|\psi\right\rangle = \left|\psi\right\rangle\left|\psi\right\rangle = \alpha \alpha \left|00\right\rangle + \alpha \beta \left|01\right\rangle + \beta \alpha \left|10\right\rangle + \beta \beta \left|11\right\rangle. \tag{4}$$</p>
+<p>$$\ U\left|\psi\right\rangle = \left|\psi\right\rangle\left|\psi\right\rangle = \alpha^2 \left|00\right\rangle + \alpha \beta \left|01\right\rangle + \beta \alpha \left|10\right\rangle + \beta^2 \left|11\right\rangle. \tag{4}$$</p>
 
 <p>We can see that clearly eqn 4 is not the same as eqn 3. This shows that when a <em>linear operator</em> operates on a quantum state, cloning the state is impossible.</p>
 </div>
@@ -137,7 +136,7 @@ $\ U\left|\psi\right\rangle = \alpha U\left|0\right\rangle + \beta U\left|1\righ
 </div>
 
 
-          </section>
-    </div>      
+        </section>
+    </div>
 </body>
 </html>

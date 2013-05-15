@@ -4,7 +4,7 @@
   <title><![CDATA[Eoin Murray]]></title>
   <link href="http://eoinmurray.github.io/atom.xml" rel="self"/>
   <link href="http://eoinmurray.github.io/"/>
-  <updated>2013-05-15T20:47:00+01:00</updated>
+  <updated>2013-05-15T21:15:06+01:00</updated>
   <id>http://eoinmurray.github.io/</id>
   <author>
     <name><![CDATA[Eoin Murray]]></name>
@@ -83,7 +83,7 @@ These measurements are probabilistic and will not be the same each time.</p>
 
 <p>$$\ \left|\psi\right\rangle = \alpha \left|0\right\rangle + \beta  \left|1\right\rangle$$.</p>
 
-<p>When you make a measurement on $ \left|\psi\right\rangle $ it will have result 1 with probability $\alpha<sup>2</sup>$ and results 0 with probability $\beta<sup>2</sup>$.</p>
+<p>When you make a measurement on $ \left|\psi\right\rangle $ it will have result 1 with probability $\alpha^2$ and results 0 with probability $\beta^2$.</p>
 
 <h2>The quantum in qubit.</h2>
 
@@ -117,7 +117,7 @@ $\ U\left|\psi\right\rangle = \alpha U\left|0\right\rangle + \beta U\left|1\righ
 
 <p>However if $U$ could clone $\ \left|\psi\right\rangle$, we would get</p>
 
-<p>$$\ U\left|\psi\right\rangle = \left|\psi\right\rangle\left|\psi\right\rangle = \alpha \alpha \left|00\right\rangle + \alpha \beta \left|01\right\rangle + \beta \alpha \left|10\right\rangle + \beta \beta \left|11\right\rangle. \tag{4}$$</p>
+<p>$$\ U\left|\psi\right\rangle = \left|\psi\right\rangle\left|\psi\right\rangle = \alpha^2 \left|00\right\rangle + \alpha \beta \left|01\right\rangle + \beta \alpha \left|10\right\rangle + \beta^2 \left|11\right\rangle. \tag{4}$$</p>
 
 <p>We can see that clearly eqn 4 is not the same as eqn 3. This shows that when a <em>linear operator</em> operates on a quantum state, cloning the state is impossible.</p>
 ]]></content>
