@@ -4,7 +4,7 @@
   <title><![CDATA[Eoin Murray]]></title>
   <link href="http://eoinmurray.github.io/atom.xml" rel="self"/>
   <link href="http://eoinmurray.github.io/"/>
-  <updated>2013-05-16T21:37:54+01:00</updated>
+  <updated>2013-05-16T23:27:46+01:00</updated>
   <id>http://eoinmurray.github.io/</id>
   <author>
     <name><![CDATA[Eoin Murray]]></name>
@@ -20,7 +20,9 @@
     <id>http://eoinmurray.github.io/blog/2013/05/16/quantum-encryption-presentation</id>
     <content type="html"><![CDATA[<p>This is the presentation for talk I gave at Tyndall during the summer. Its based on the BB84 quantum encryption protocol.</p>
 
-<iframe src="http://www.slideshare.net/slideshow/embed_code/21282504" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/21282504" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+ style="width:100%;min-height:400px;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px"
+ allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
 
 
 <p>The talk is based on the original BB84 papaer.</p>
