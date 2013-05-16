@@ -4,7 +4,7 @@
   <title><![CDATA[Eoin Murray]]></title>
   <link href="http://eoinmurray.github.io/atom.xml" rel="self"/>
   <link href="http://eoinmurray.github.io/"/>
-  <updated>2013-05-16T23:27:46+01:00</updated>
+  <updated>2013-05-16T23:45:01+01:00</updated>
   <id>http://eoinmurray.github.io/</id>
   <author>
     <name><![CDATA[Eoin Murray]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Camera]]></title>
+    <link href="http://eoinmurray.github.io/blog/2013/05/16/camera/"/>
+    <updated>2013-05-16T23:28:00+01:00</updated>
+    <id>http://eoinmurray.github.io/blog/2013/05/16/camera</id>
+    <content type="html"><![CDATA[<p><img src="http://farm8.staticflickr.com/7299/8745880846_7aca93f8cd_c.jpg" alt="" /></p>
+
+<p><img src="http://farm8.staticflickr.com/7288/8745876148_c67a8b16a2_c.jpg" alt="" /></p>
+
+<p><img src="http://farm8.staticflickr.com/7282/8744768691_c20cfbbe4d_c.jpg" alt="" /></p>
+
+<p><img src="http://farm8.staticflickr.com/7309/8744749843_42790f484d_c.jpg" alt="" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Quantum encryption presentation]]></title>
