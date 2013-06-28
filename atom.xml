@@ -4,7 +4,7 @@
   <title><![CDATA[Eoin Murray]]></title>
   <link href="http://eoinmurray.github.io/atom.xml" rel="self"/>
   <link href="http://eoinmurray.github.io/"/>
-  <updated>2013-05-17T23:49:19+01:00</updated>
+  <updated>2013-06-28T18:13:50+01:00</updated>
   <id>http://eoinmurray.github.io/</id>
   <author>
     <name><![CDATA[Eoin Murray]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cheetah.io]]></title>
+    <link href="http://eoinmurray.github.io/blog/2013/06/28/cheetah-dot-io/"/>
+    <updated>2013-06-28T18:12:00+01:00</updated>
+    <id>http://eoinmurray.github.io/blog/2013/06/28/cheetah-dot-io</id>
+    <content type="html"><![CDATA[<p><a href="http://cheetah.io">Cheetah.io</a></p>
+
+<p>Mathematical notetaking. Realtime tex-math preview as you type.
+I think it will be pretty useful for class or any non-presentation scientific writing.</p>
+
+<p>Just write latex style math, wrap your math in one dollar for inline math, and double dollars for centered math.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Camera]]></title>
@@ -52,6 +66,8 @@
     <updated>2013-05-15T11:30:00+01:00</updated>
     <id>http://eoinmurray.github.io/blog/2013/05/15/rontgen-dot-js</id>
     <content type="html"><![CDATA[<h3><a href="http://eoinmurray.github.io/rontgen">Check out the demo here</a>.</h3>
+
+<p><img src="http://i.imgur.com/8jK0DKh.png" alt="" /></p>
 
 <p>I have been working on an online LaTex and markdown for the last few days. In the same vain as <a href="http://socrates.io">Socrates.io</a> and <a href="http://dillinger.io">Dilliner.io</a> but with a bit more performance on the latex side. Mathjax is library for rendering LaTex on the web, but it is pretty slow. Socrates solves the performance issue by debouncing the math render by half a second, but this means that you have a lot of math flicking on and off. In my opinion this defeats the purpose of the real time math.</p>
 
