@@ -1,10 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
-  padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
-  font-weight:300;
+font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #777;
+font-weight: 300;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -56,6 +60,7 @@ a:hover small {
 .wrapper {
   width:860px;
   margin:0 auto;
+  height: 100%;
 }
 
 blockquote {
@@ -104,8 +109,11 @@ img {
 }
 
 header {
+  margin-top: 50px;
   width:270px;
   float:right;
+  height: 90%;
+  border-left: 1px solid #e6e6e6;
 }
 
 header ul {
@@ -134,10 +142,12 @@ header ul a strong {
 }
 
 section {
+
   width:500px;
   float:left;
   padding-bottom:50px;
   margin:0 auto;
+  margin-top: 50px;
 }
 
 small {
@@ -162,10 +172,13 @@ footer {
 
 
     header {
+      border: none !important;
       float:none !important;
       margin:0 0 !important;
-      min-height:60px!important;
+      margin-bottom: 30px !important;
+      height:60px!important;
       width:300px !important;
+      
     }
     .text-center {
       text-align: left!important;
@@ -229,6 +242,8 @@ footer {
 
   header {
     padding:0;
+    border: none !important;
+    margin-bottom: 30px !important;
   }
 
   header ul, header p.view {
@@ -247,6 +262,7 @@ footer {
 
   header ul {
     display:none;
+    border: none !important;
   }
 }
 
