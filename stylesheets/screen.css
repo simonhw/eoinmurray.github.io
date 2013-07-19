@@ -60,7 +60,7 @@ a:hover small {
 .wrapper {
   width:860px;
   margin:0 auto;
-  height: 100%;
+  /*height: 100%;*/
 }
 
 blockquote {
@@ -109,11 +109,12 @@ img {
 }
 
 header {
+  /*margin-right: -25%;*/
   margin-top: 50px;
   width:270px;
   float:right;
-  height: 90%;
-  border-left: 1px solid #e6e6e6;
+  height: 80%;
+  /*border-left: 1px solid #e6e6e6;*/
 }
 
 header ul {
@@ -142,9 +143,8 @@ header ul a strong {
 }
 
 section {
-
+  /*min-width: 500px;*/
   width:500px;
-  float:left;
   padding-bottom:50px;
   margin:0 auto;
   margin-top: 50px;
@@ -168,8 +168,15 @@ footer {
   bottom:50px;
 }
 
-@media print, screen and (max-width: 960px) {
 
+
+@media print, screen and (max-width: 1200px) { section {margin-left:100px;} }
+@media print, screen and (max-width: 960px) { section {margin-left:20px;} }
+
+@media print, screen and (max-width: 800px) {
+  body{
+      padding:15px;
+  }
 
     header {
       border: none !important;
@@ -280,7 +287,7 @@ footer {
 
 .profile{
   text-align: center;
-  background-image:url(https://en.gravatar.com/userimage/27617131/b3a3e7528a2e3f37f287cd68e6842dba.jpg?size=100);
+  background-image:url(http://www.gravatar.com/avatar/a568f471b8bc8b25897a8d0c73211db3.png?size=100);
   width:100px;
   height:100px;
   background-size:cover;
@@ -290,6 +297,7 @@ footer {
   border-top-right-radius:200px;
   box-shadow:rgba(0, 0, 0, 0.498039) 2px 2px 5px inset, rgba(0, 0, 0, 0.0470588) 0 0 2px 1px inset;
   display:block;
+  border: 2px solid #e6e6e6;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 1rem;
@@ -303,6 +311,8 @@ footer {
 }
 
 article {
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .index-title{
@@ -353,7 +363,7 @@ cursor: auto;
 }
 
 .icon{
-  color: #444;
+  color: #d1d1d1;
   text-transform: uppercase;
   text-decoration: none;
   transition: color 0.25s ease-in;
@@ -361,6 +371,7 @@ cursor: auto;
 }
 
 .logos {
-  margin-left: -6rem;
+  margin-right: -6rem;
   margin-top: -0.5rem;
+  font-size: 12px;
 }
