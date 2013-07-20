@@ -109,9 +109,9 @@ img {
 }
 
 header {
-  /*margin-right: -25%;*/
+  margin: 0 auto;
   margin-top: 50px;
-  width:270px;
+  width:300px;
   float:right;
   height: 80%;
   /*border-left: 1px solid #e6e6e6;*/
