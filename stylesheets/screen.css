@@ -181,10 +181,10 @@ footer {
     header {
       border: none !important;
       float:none !important;
-      margin:0 0 !important;
+      margin:0 auto !important;
       margin-bottom: 30px !important;
       height:60px!important;
-      width:300px !important;
+      width:190px !important;
       
     }
     .text-center {
