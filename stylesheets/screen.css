@@ -112,7 +112,7 @@ header {
   margin: 0 auto;
   margin-top: 50px;
   width:300px;
-  float:right;
+  float:left;
   height: 80%;
   /*border-left: 1px solid #e6e6e6;*/
 }
