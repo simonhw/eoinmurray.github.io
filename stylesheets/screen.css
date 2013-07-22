@@ -170,10 +170,10 @@ footer {
 
 
 
-@media print, screen and (max-width: 1200px) { section {margin-left:100px;} }
-@media print, screen and (max-width: 960px) { section {margin-left:20px;} }
+@media print, screen and (max-width: 1200px) { section {margin-right:100px;} }
+@media print, screen and (max-width: 960px) { section {margin-right:20px;} }
 
-@media print, screen and (max-width: 800px) {
+@media print, screen and (max-width: 880px) {
   body{
       padding:15px;
   }
