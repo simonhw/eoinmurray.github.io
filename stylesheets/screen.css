@@ -1,15 +1,40 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
-font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-color: #777;
-font-weight: 300;
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
+  font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #777;
+  font-weight: 300;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0px !important;
+  margin: 0px !important;
 }
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 130px solid transparent;
+  border-right: 130px solid transparent;
+  
+  border-bottom: 130px solid white;
+  margin: 0 auto;
+  margin-top: -130px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 999;
+}
+
+.bg-image{
+  height: 250px;
+  width: 100%;
+  background-color: black;
+  background: url(/images/particles.jpg) 50% 50% repeat fixed; min-height: 250px;
+  background-position-x: 24%;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
@@ -173,7 +198,7 @@ footer {
 @media print, screen and (max-width: 1200px) { section {margin-right:100px;} }
 @media print, screen and (max-width: 960px) { section {margin-right:20px;} }
 
-@media print, screen and (max-width: 880px) {
+@media print, screen and (max-width: 8800px) {
   body{
       padding:15px;
   }
@@ -223,7 +248,7 @@ footer {
   }
 
   section {
-    border:1px solid #e5e5e5;
+    border-top:1px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
@@ -375,4 +400,12 @@ cursor: auto;
   /*float: left;*/
   margin-top: -0.5rem;
   font-size: 10px;
+}
+
+#home { 
+  background: url(http://i.imgur.com/spBCVUb.jpg) 10% 0 repeat fixed; min-height: 200px;
+}
+ 
+#about { 
+  background: url(about-bg.jpg) 30% 0 no-repeat min-height: 1000px;  
 }
