@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://eoinmurray.github.io/sitemap.xml 
+Sitemap: eoinmurray.io/sitemap.xml 

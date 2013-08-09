@@ -1,43 +1,43 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://eoinmurray.github.io/blog/2013/05/15/quantum-dots/</loc>
+        <loc>eoinmurray.io/blog/2013/05/15/quantum-dots/</loc>
         <lastmod>2013-08-09T10:22:41+01:00</lastmod>
     </url>
     <url>
-        <loc>http://eoinmurray.github.io/blog/2013/05/15/simulations/</loc>
+        <loc>eoinmurray.io/blog/2013/05/15/simulations/</loc>
         <lastmod>2013-08-09T10:22:41+01:00</lastmod>
     </url>
     <url>
-        <loc>http://eoinmurray.github.io/blog/2013/05/15/rontgen-dot-js/</loc>
+        <loc>eoinmurray.io/blog/2013/05/15/rontgen-dot-js/</loc>
         <lastmod>2013-08-09T10:22:41+01:00</lastmod>
     </url>
     <url>
-        <loc>http://eoinmurray.github.io/blog/2013/05/16/quantum-encryption-presentation/</loc>
+        <loc>eoinmurray.io/blog/2013/05/16/quantum-encryption-presentation/</loc>
         <lastmod>2013-08-09T10:22:41+01:00</lastmod>
     </url>
     <url>
-        <loc>http://eoinmurray.github.io/blog/2013/05/16/camera/</loc>
+        <loc>eoinmurray.io/blog/2013/05/16/camera/</loc>
         <lastmod>2013-08-09T10:22:41+01:00</lastmod>
     </url>
     <url>
-        <loc>http://eoinmurray.github.io/blog/2013/06/28/cheetah-dot-io/</loc>
+        <loc>eoinmurray.io/blog/2013/06/28/cheetah-dot-io/</loc>
         <lastmod>2013-08-09T10:22:41+01:00</lastmod>
     </url>
     <url>
-        <loc>http://eoinmurray.github.io/blog/2013/08/02/icarus-dot-py/</loc>
+        <loc>eoinmurray.io/blog/2013/08/02/icarus-dot-py/</loc>
         <lastmod>2013-08-09T10:22:41+01:00</lastmod>
     </url>
     <url>
-        <loc>http://eoinmurray.github.io/blog/archives/</loc>
+        <loc>eoinmurray.io/blog/archives/</loc>
         <lastmod>2013-08-09T10:22:41+01:00</lastmod>
     </url>
     <url>
-        <loc>http://eoinmurray.github.io/</loc>
+        <loc>eoinmurray.io/</loc>
         <lastmod>2013-08-09T10:22:41+01:00</lastmod>
     </url>
     <url>
-        <loc>http://eoinmurray.github.io/robots.txt</loc>
+        <loc>eoinmurray.io/robots.txt</loc>
         <lastmod>2013-05-15T10:57:52+01:00</lastmod>
     </url>
 </urlset>

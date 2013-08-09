@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: posts | Eoin Murray]]></title>
-  <link href="http://eoinmurray.github.io/blog/categories/posts/atom.xml" rel="self"/>
-  <link href="http://eoinmurray.github.io/"/>
-  <updated>2013-08-09T11:26:27+01:00</updated>
-  <id>http://eoinmurray.github.io/</id>
+  <link href="eoinmurray.io/blog/categories/posts/atom.xml" rel="self"/>
+  <link href="eoinmurray.io/"/>
+  <updated>2013-08-09T12:04:57+01:00</updated>
+  <id>eoinmurray.io/</id>
   <author>
     <name><![CDATA[Eoin Murray]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Lorentz.js]]></title>
-    <link href="http://eoinmurray.github.io/blog/2013/05/15/simulations/"/>
+    <link href="eoinmurray.io/blog/2013/05/15/simulations/"/>
     <updated>2013-05-15T00:00:00+01:00</updated>
-    <id>http://eoinmurray.github.io/blog/2013/05/15/simulations</id>
+    <id>eoinmurray.io/blog/2013/05/15/simulations</id>
     <content type="html"><![CDATA[<p><strong><a href="http://github.com/eoinmurray/lorentz">Lorentz.js</a> is a node.js module that watches for client side file changes and reloads the browser.</strong></p>
 
 <pre><code>npm install lorentz
@@ -52,9 +52,9 @@ index.html
   
   <entry>
     <title type="html"><![CDATA[Fun with qubits.]]></title>
-    <link href="http://eoinmurray.github.io/blog/2013/05/15/quantum-dots/"/>
+    <link href="eoinmurray.io/blog/2013/05/15/quantum-dots/"/>
     <updated>2013-05-15T00:00:00+01:00</updated>
-    <id>http://eoinmurray.github.io/blog/2013/05/15/quantum-dots</id>
+    <id>eoinmurray.io/blog/2013/05/15/quantum-dots</id>
     <content type="html"><![CDATA[<p><strong>In my opinion, this is a bunch of stuff that anyone interested in quantum communication should know about how quibits behave.</strong></p>
 
 <h2>Superposition.</h2>
