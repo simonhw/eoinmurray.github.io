@@ -33,6 +33,7 @@ body {
   background-color: black;
   background: url(/images/particles.jpg) 50% 50% repeat fixed; min-height: 250px;
   background-position-x: 24%;
+  box-shadow: -10px -10px -5px #888888;
 }
 
 
